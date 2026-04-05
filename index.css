@@ -132,3 +132,26 @@ footer{
         width:250px;
     }
 }
+
+section{
+    opacity:0;
+    transform:translateY(60px);
+    transition: all 0.8s ease;
+}
+
+section.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.project-card{
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+.skill-card:hover{
+    transform: scale(1.05);
+}
